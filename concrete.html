@@ -34,29 +34,18 @@
         <div class="gutter-sizer"></div>
         <div class="grid-item"><img src="img/chisenhal/belvedere.jpg"></div>
         <div class="grid-item"><img src="img/chisenhal/concrete.jpg"></div>
-        <!-- <div class="grid-item"><img src="img/chisenhal/concretewks.jpg"></div>
-        <div class="grid-item"><img src="img/chisenhal/freight.jpg"></div> -->
       </div>
     </body>
 
   	<script>
-  		// $('.grid').masonry({
-			
-  		//   itemSelector: '.grid-item',
-  		//   // use element for option
-  		//   columnWidth: '.grid-sizer',
-  		//   percentPosition: true
-  		// })
-  		$('.grid').masonry({
-        // itemSelector: '.grid-item',
-        // columnWidth: 250,
-        // isFitWidth: true,
-        // transitionDuration: 0
-        columnWidth: '.grid-sizer',
-        gutter: '.gutter-sizer',
-        itemSelector: '.grid-item',
-        percentPosition: true
-      });
+  		$(window).on('load', function(){ 
+    		$('.grid').masonry({
+          columnWidth: '.grid-sizer',
+          gutter: '.gutter-sizer',
+          itemSelector: '.grid-item',
+          percentPosition: true
+        });
+      })
   	</script>
   </body>
 </html>

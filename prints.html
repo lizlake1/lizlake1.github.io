@@ -37,42 +37,21 @@
         <div class="grid-item"><img src="img/prints/print3.jpg"></div>
         <div class="grid-item"><img src="img/main/estuary2.jpg"></div>
         <div class="grid-item"><img src="img/prints/print1.jpg"></div>
-        <!-- <div class="grid-item"><img src="img/prints/print2.jpg"></div> -->
-        <!-- <div class="grid-item"><img src="img/prints/print4.jpg"></div> -->
-        <!-- <div class="grid-item"><img src="img/prints/print5.jpg"></div> -->
-        <!-- <div class="grid-item"><img src="img/prints/print6.jpg"></div> -->
         <div class="grid-item"><img src="img/prints/print15.jpg"></div>
-        <!-- <div class="grid-item"><img src="img/prints/print11.jpg"></div> -->
-        <!-- <div class="grid-item"><img src="img/prints/print10.jpg"></div> -->
-        <!-- <div class="grid-item"><img src="img/prints/print18.jpg"></div> -->
         <div class="grid-item"><img src="img/prints/print16.jpg"></div>
         <div class="grid-item"><img src="img/prints/print9.jpg"></div>
-        <!-- <div class="grid-item"><img src="img/prints/print8.jpg"></div> -->
         <div class="grid-item"><img src="img/prints/print19.jpg"></div>
-        <!-- <div class="grid-item"><img src="img/prints/print17.jpg"></div> -->
-        <!-- <div class="grid-item"><img src="img/prints/print18.jpg"></div> -->
-        <!-- <div class="grid-item"><img src="img/prints/print14.jpg"></div> -->
-
       </div>
     </body>
 
   	<script>
-  		// $('.grid').masonry({
-			
-  		//   itemSelector: '.grid-item',
-  		//   // use element for option
-  		//   columnWidth: '.grid-sizer',
-  		//   percentPosition: true
-  		// })
-  		$('.grid').masonry({
-        // itemSelector: '.grid-item',
-        // columnWidth: 250,
-        // isFitWidth: true,
-        // transitionDuration: 0
-        columnWidth: '.grid-sizer',
-        gutter: '.gutter-sizer',
-        itemSelector: '.grid-item',
-        percentPosition: true
+      $(window).on('load', function(){ 
+    		$('.grid').masonry({
+          columnWidth: '.grid-sizer',
+          gutter: '.gutter-sizer',
+          itemSelector: '.grid-item',
+          percentPosition: true
+        });
       });
   	</script>
   </body>

@@ -41,22 +41,13 @@
     </body>
 
   	<script>
-  		// $('.grid').masonry({
-			
-  		//   itemSelector: '.grid-item',
-  		//   // use element for option
-  		//   columnWidth: '.grid-sizer',
-  		//   percentPosition: true
-  		// })
-  		$('.grid').masonry({
-        // itemSelector: '.grid-item',
-        // columnWidth: 250,
-        // isFitWidth: true,
-        // transitionDuration: 0
-        columnWidth: '.grid-sizer--three',
-        gutter: '.gutter-sizer',
-        itemSelector: '.grid-item--three',
-        percentPosition: true
+  		$(window).on('load', function(){ 
+    		$('.grid').masonry({
+          columnWidth: '.grid-sizer--three',
+          gutter: '.gutter-sizer',
+          itemSelector: '.grid-item--three',
+          percentPosition: true
+        });
       });
   	</script>
   </body>
