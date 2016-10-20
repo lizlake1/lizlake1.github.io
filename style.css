@@ -5,6 +5,11 @@ img{
     //padding: 10px;    
 }
 
+a {
+    text-decoration: none;
+    color: #222222;
+}
+
 .content{
     width: 75%;
     margin: 0 auto;
