@@ -2,52 +2,30 @@
 <html>
   <head>
     <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Portfolio</title>
-  <meta name="author" content="Henry Lake">
-  <meta name="description" content="Liz Lake's Portfolio">
-  <meta name="keywords" content="Art">
-  <link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.icon">
-  <link rel="stylesheet" href="style.css" type="text/css"> 
-  <script src="lib/jquery-3.1.1.min.js"></script>
-  <script src="lib/masonry.pkgd.min.js"></script>
-  <script type="text/javascript">
-   var _gaq = _gaq || [];
-   _gaq.push(['_setAccount', 'UA-XXXXXXXX-Y']);
-   _gaq.push(['_trackPageview']);
-   (function()
-   {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-   })();
-  </script>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Concrete</title>
+    <meta name="author" content="Henry Lake">
+    <meta name="description" content="Liz Lake's Portfolio">
+    <link rel="stylesheet" href="style.css" type="text/css"> 
   </head>
-
-
   <body>
-  	<a href="index.html">
-      <h1>Liz Lake</h1>
-    </a>
+  	<div class="nav-container">
+      <a href="index.html"><div class="nav-item">Liz Lake</div></a>
+      <a href="about.html"><div class="nav-item">About</div></a>
+    </div>
     <div class="content">
-      <p>Bacon ipsum dolor amet ribeye tenderloin frankfurter, beef jerky pancetta chicken meatloaf beef ribs corned beef shoulder. Ball tip boudin short loin, brisket pancetta cow flank prosciutto tri-tip fatback biltong pig capicola. Leberkas venison filet mignon brisket tenderloin pork loin tongue beef ribs shankle biltong turducken pancetta. Leberkas pork loin chicken short loin filet mignon, burgdoggen tenderloin swine chuck. Spare ribs swine boudin corned beef tail, porchetta pancetta pig turducken leberkas. Jowl beef meatloaf, corned beef prosciutto chuck flank frankfurter alcatra burgdoggen pastrami picanha ham.</p>
-      <div class="grid">
-        <div class="grid-sizer"></div>
-        <div class="gutter-sizer"></div>
-        <div class="grid-item"><img src="img/chisenhal/belvedere.jpg"></div>
-        <div class="grid-item"><img src="img/chisenhal/concrete.jpg"></div>
-      </div>
-    </body>
 
-  	<script>
-  		$(window).on('load', function(){ 
-    		$('.grid').masonry({
-          columnWidth: '.grid-sizer',
-          gutter: '.gutter-sizer',
-          itemSelector: '.grid-item',
-          percentPosition: true
-        });
-      })
-  	</script>
+      <h2>Waste/Ash/Concrete</h2>
+
+      <p>This project is work-in-progress, a film and sculptural installation currently being developed at <a href="http://chisenhale.co.uk/chisenhale/">Chisenhale Studios</a>. The piece traces the relationship between waste, ash from incineration and concrete- collecting stories and visiting landscapes associated with the production and transport of these materials. For more info/photos on project see <a href="http://studio4blog.tumblr.com/">here</a></p>
+
+      <div class = "columns">
+        <div class="img-wrap">
+          <img src="img/chisenhal/belvedere.jpg">
+          <p>Concrete plant, Bow</p>
+          <img src="img/chisenhal/concrete.jpg">
+          <p>Belvedere Incinerator, Bexley</p>
+        </div>
+      </div>
   </body>
 </html>

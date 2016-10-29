@@ -2,68 +2,37 @@
 <html>
   <head>
     <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Portfolio</title>
-  <meta name="author" content="Henry Lake">
-  <meta name="description" content="Liz Lake's Portfolio">
-  <meta name="keywords" content="Art">
-  <link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.icon">
-  <link rel="stylesheet" href="style.css" type="text/css"> 
-  <script src="lib/jquery-3.1.1.min.js"></script>
-  <script src="lib/masonry.pkgd.min.js"></script>
-  <script type="text/javascript">
-   var _gaq = _gaq || [];
-   _gaq.push(['_setAccount', 'UA-XXXXXXXX-Y']);
-   _gaq.push(['_trackPageview']);
-   (function()
-   {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-   })();
-  </script>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Liz Lake</title>
+    <meta name="author" content="Henry Lake">
+    <meta name="description" content="Liz Lake's Portfolio">
+    <link rel="stylesheet" href="style.css" type="text/css"> 
   </head>
-
 
   <body>
     <div class="nav-container">
-  	  <div class="nav-item">Liz Lake</div>
-      <div class="nav-item">Contact</div>
+      <a href="index.html"><div class="nav-item">Liz Lake</div></a>
+      <a href="about.html"><div class="nav-item">About</div></a>
     </div>
   	<div class="content">
-	  	<div class="grid">
-	  		<div class="grid-sizer"></div>
-	  	  <div class="gutter-sizer"></div>
-	  	  <div class="grid-item">
-  	  		<a href="concrete.html">
-			  		<img src="img/main/concrete.jpg">
-  		  	</a>
-	  	  </div>
-	  	  <div class="grid-item">
-          <a href="estuary.html">            
-            <img src="img/main/closeup1.jpg">              
-          </a>
+	  	<div class="columns">
+  	  	<div class="caption-img">
+          <a href="concrete.html"><img src="img/main/concrete.jpg"></a>
+          <p>Waste/Ash/Concrete</p>
         </div>
-	  	  <div class="grid-item">
-          <a href="coal.html">
-            <img src="img/main/bluemedal.jpg">
-          </a>
+        <div class="caption-img">
+          <a href="coal.html"><img src="img/main/bluemedal.jpg"></a>
+          <p>Carboniferous</p>
         </div>
-          <a href="prints.html">
-    	  	  <div class="grid-item"><img src="img/main/estuary2.jpg"></div>
-          </a>
-	  	</div>
+        <div class="caption-img">
+          <a href="estuary.html"><img src="img/main/closeup1.jpg"></a>
+          <p>Estuary</p>
+        </div>
+        <div class="caption-img">
+          <a href="prints.html"><img src="img/main/estuary2.jpg"></a>
+          <p>Monoprints</p>
+        </div>
+      </div>
 	  </div>
-
-  	<script>
-  		$(window).on('load', function(){ 
-        $('.grid').masonry({
-    		  columnWidth: '.grid-sizer',
-    		  gutter: '.gutter-sizer',
-    		  itemSelector: '.grid-item',
-    		  percentPosition: true
-  		  });
-      })
-  	</script>
   </body>
 </html>

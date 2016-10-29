@@ -2,55 +2,30 @@
 <html>
   <head>
     <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Coal</title>
-  <meta name="author" content="Henry Lake">
-  <meta name="description" content="Liz Lake's Portfolio">
-  <meta name="keywords" content="Art">
-  <link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.icon">
-  <link rel="stylesheet" href="style.css" type="text/css"> 
-  <script src="lib/jquery-3.1.1.min.js"></script>
-  <script src="lib/masonry.pkgd.min.js"></script>
-  <script type="text/javascript">
-   var _gaq = _gaq || [];
-   _gaq.push(['_setAccount', 'UA-XXXXXXXX-Y']);
-   _gaq.push(['_trackPageview']);
-   (function()
-   {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-   })();
-  </script>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Carboniferous</title>
+    <meta name="author" content="Henry Lake">
+    <meta name="description" content="Liz Lake's Portfolio">
+    <link rel="stylesheet" href="style.css" type="text/css"> 
   </head>
 
-
   <body>
-  	<a href="index.html">
-      <h1>Liz Lake</h1>
-    </a>
+  	<div class="nav-container">
+      <a href="index.html"><div class="nav-item">Liz Lake</div></a>
+      <a href="about.html"><div class="nav-item">About</div></a>
+    </div>
     <div class="content">
-      <p>Bacon ipsum dolor amet ribeye tenderloin frankfurter, beef jerky pancetta chicken meatloaf beef ribs corned beef shoulder. Ball tip boudin short loin, brisket pancetta cow flank prosciutto tri-tip fatback biltong pig capicola. Leberkas venison filet mignon brisket tenderloin pork loin tongue beef ribs shankle biltong turducken pancetta. Leberkas pork loin chicken short loin filet mignon, burgdoggen tenderloin swine chuck. Spare ribs swine boudin corned beef tail, porchetta pancetta pig turducken leberkas. Jowl beef meatloaf, corned beef prosciutto chuck flank frankfurter alcatra burgdoggen pastrami picanha ham.</p>
-      <div class="grid">
-        <div class="grid-sizer--three"></div>
-        <div class="gutter-sizer"></div>
-        <div class="grid-item grid-item--three"><img src="img/main/bluemedal.jpg"></div>
-        <div class="grid-item grid-item--three"><img src="img/coal/coal1.jpg"></div>
-        <div class="grid-item grid-item--three"><img src="img/coal/coal2.jpg"></div>
-        <div class="grid-item grid-item--three"><img src="img/coal/saltwells.jpg"></div>
-        <div class="grid-item grid-item--three"><img src="img/coal/coal3.jpg"></div>
+      <h2>Carboniferous</h2>
+      <div class="img-wrap">
+        <img src="img/coal/saltwells.jpg">
+        <p>Saltwells, Dudley</p>      
+        <div class = "columns">        
+          <img src="img/coal/bluemedal.jpg">
+          <p><i>‘Rise & Fall’</i>, Bronze, salt and vinegar patina </p>
+          <img src="img/coal/coal.jpg">
+          <p>Coal core sample</p>
+        </div>
       </div>
-    </body>
-
-  	<script>
-  		$(window).on('load', function(){ 
-    		$('.grid').masonry({
-          columnWidth: '.grid-sizer--three',
-          gutter: '.gutter-sizer',
-          itemSelector: '.grid-item--three',
-          percentPosition: true
-        });
-      });
-  	</script>
+    </div>
   </body>
 </html>
