@@ -6,7 +6,7 @@ img{
 .content{
     width: 75%;
     margin: 0 auto 30px auto;
-    
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;    
 }
 
 .columns {
@@ -44,7 +44,7 @@ body {
     background: #ffffff;
     color: #222222;
     font-family: ChannelMedium;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 @font-face {
@@ -64,6 +64,10 @@ body {
 
 .nav-container {
     margin: 0 auto;
+}
+
+.img-margin {
+    margin-bottom: 20px;
 }
 
 .nav-item {
