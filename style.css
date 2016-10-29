@@ -1,12 +1,6 @@
 img{
     width: 100%;
     display: block;
-    //padding: 10px;    
-}
-
-a {
-    // text-decoration: none;
-    // color: #222222;
 }
 
 .content{
@@ -41,53 +35,6 @@ a {
     margin-bottom: 30px;
 }
 
-.img-info {
-    width: 100%;
-    //height: 100%;
-    text-align: center;
-    position: relative;
-    top: 50%;
-    transform: perspective(1px) translateY(-50%);
-}
-
-.img-wrap span{
-    height: 100%;
-    width: 100%;
-    top:0;
-    position: absolute;
-    color: white;
-    background: rgba(0,0,0,0.5);
-    color: white;
-    cursor: pointer;
-    // display: table;
-    left: 0;
-    top: 0;
-    opacity: 0;
-    -webkit-transition: opacity 500ms;
-    -moz-transition: opacity 500ms;
-    -o-transition: opacity 500ms;
-    transition: opacity 500ms;        
-}
-
-.img-wrap span:hover {
-  opacity: 1;
-}
-
-
-
-.grid-sizer,
-.grid-item { width: 49%; }
-
-.grid-sizer--three,
-.grid-item--three { width: 32%; }
-.grid-item--width2 { width: 100%; }
-
-.gutter-sizer { width: 2%; }
-
-
-/* Global Hegel styles
-***********************************************************************************************************/
-
 body, html { 
     margin: 0px;
     padding: 0px;
@@ -97,7 +44,7 @@ body {
     background: #ffffff;
     color: #222222;
     font-family: ChannelMedium;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 @font-face {
@@ -116,9 +63,6 @@ body {
 }
 
 .nav-container {
-    // margin-bottom: 40px;
-    //display: inline-block;
-    // width: 50%;
     margin: 0 auto;
 }
 
@@ -126,9 +70,6 @@ body {
     display: inline-block;
     text-align: center;
     padding: 30px;
-}
-
-.col-2 {
-    width: 50%;
-    padding: 0 10px;
+    text-decoration: none;
+    color: #222222;
 }
