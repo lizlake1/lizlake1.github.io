@@ -22,7 +22,7 @@ img{
 }
 
 .caption{
-    font-size: 15px;
+    // font-size: 15px;
 }
 
 .caption-img{
@@ -32,13 +32,13 @@ img{
 
 .caption-img p{
     margin: 0;
-    font-size: 20px;
+    // font-size: 20px;
 }
 
 .img-wrap p{
     margin: 0 0 10px 0;
     //margin: 0;
-    font-size: 20px;
+    // font-size: 20px;
 }
 
 .no-caption-img {
@@ -52,9 +52,10 @@ body, html {
 
 body {
     background: #ffffff;
-    color: #222222;
-    font-family: Futura, Trebuchet MS, Arial, sans serif;;
-    font-size: 20px;
+    color: #566b78;
+    font-family: Futura, Trebuchet MS, Arial, sans serif;
+    line-height: 1.5;
+    // font-size: 20px;
 }
 
 
@@ -71,6 +72,15 @@ body {
     display: inline-block;
     text-align: center;
     padding: 30px;
+    font-size: 20px;
     text-decoration: none;
     color: #222222;
+}
+
+h2{
+    color: #222222;
+}
+
+a{
+    color: #e81c4f;
 }
