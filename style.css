@@ -6,13 +6,11 @@ img{
 .content{
     width: 75%;
     margin: 0 auto 30px auto;
-    // font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;    
 }
 
 .narrow-content{
     width: 55%;
     margin: 0 auto 30px auto;
-    // font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;    
 }
 
 .columns {
@@ -22,7 +20,7 @@ img{
 }
 
 .caption{
-    // font-size: 15px;
+    font-size: 14px;
 }
 
 .caption-img{
@@ -32,13 +30,10 @@ img{
 
 .caption-img p{
     margin: 0;
-    // font-size: 20px;
 }
 
 .img-wrap p{
     margin: 0 0 10px 0;
-    //margin: 0;
-    // font-size: 20px;
 }
 
 .no-caption-img {
@@ -55,7 +50,6 @@ body {
     color: #566b78;
     font-family: Futura, Trebuchet MS, Arial, sans serif;
     line-height: 1.5;
-    // font-size: 20px;
 }
 
 
