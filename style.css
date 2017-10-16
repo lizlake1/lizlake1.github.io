@@ -1,6 +1,16 @@
+html, body {
+    height: 100%;
+}
+
 img{
     width: 100%;
     display: block;
+}
+
+.full-screen-image {
+    width: auto;
+    height: 100%;
+    margin: 0 auto;
 }
 
 .content{
@@ -45,7 +55,7 @@ img{
     margin-bottom: 30px;
 }
 
-body, html { 
+body, html {
     margin: 0px;
     padding: 0px;
 }
