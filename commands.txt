@@ -1,0 +1,17 @@
+git status
+shows what files have changed and what branch you are on
+
+git add *
+adds all changed files, rwady to be committed 
+
+git commit -m "message"
+Commits the changes added locally 
+
+git push
+Updates files on server/git hub. If on Master branch this will update website 
+
+git checkout branch name (master/experiment)
+changes the current branch you are working on 
+
+git lg
+shows the commit history 
